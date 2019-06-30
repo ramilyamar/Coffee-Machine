@@ -1,0 +1,39 @@
+The program should repeatedly ask what the user wants to do.
+
+User can input these actions: buy, fill, take, remaining, exit.
+
+Buy.
+If the user writes "buy" then he must choose one of three varieties of coffee that the coffee machine can make:
+espresso, latte, or cappuccino.
+
+For the espresso, the coffee machine needs 250 ml of water and 16 g of coffee beans. It costs $4.
+For the latte, the coffee machine needs 350 ml of water, 75 ml of milk, and 20 g of coffee beans. It costs $7.
+And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk, and 12 g of coffee. It costs $6.
+
+If the coffee machine doesn’t have enough resources to make coffee, the program should output a message
+that says it can't make a cup of coffee.
+
+If the user types "buy" to buy a cup of coffee and then changes his mind,
+he should be able to type "back" to return into the main cycle.
+
+For the espresso, the coffee machine needs 250 ml of water and 16 g of coffee beans. It costs $4.
+For the latte, the coffee machine needs 350 ml of water, 75 ml of milk, and 20 g of coffee beans. It costs $7.
+And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk, and 12 g of coffee. It costs $6.
+
+Fill.
+If the user writes "fill", the program should ask him how much water, milk, coffee beans and
+how many disposable cups he wants to add into the coffee machine.
+
+Take.
+If the user writes "take" the program should give him all the money that it earned from selling coffee.
+
+Remaining.
+When the user types "remaining", the program should output all the resources that the coffee machine has.
+
+Exit.
+If the user wants to switch off the coffee machine, he should type "exit".
+Then the program should terminate.
+
+Initial resources.
+Coffee machine should have the same initial resources:
+400 ml of water, 540 ml of milk, 120 g of coffee beans, 9 disposable cups, $550 in cash.
